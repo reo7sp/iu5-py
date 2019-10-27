@@ -16,13 +16,13 @@ class Rectangle(Figure):
         self._fc.color = color
 
     def area(self):
-        return self.width * self.height
+        return self._width * self._height
 
     def __repr__(self):
         return '{} {} цвета шириной {} и высотой {} площадью {}.'.format(
             Rectangle.get_figure_type(),
-            self._fc.colorproperty,
+            self._fc.color,
             self._width,
             self._height,
-            self.are()
+            self.area()
         )
