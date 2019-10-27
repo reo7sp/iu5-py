@@ -47,5 +47,6 @@ def print_result(f):
                 print(k, '=', v)
         else:
             print(result)
+        return result
 
     return wrap

@@ -28,8 +28,7 @@ def f1(arg):
 
 @print_result
 def f2(arg):
-    return [name for name in arg if name.startswnameh('Программист')]
-
+    return [name for name in arg if name.startswith('Программист')]
 
 @print_result
 def f3(arg):
